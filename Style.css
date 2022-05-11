@@ -1,0 +1,592 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#Copyright{
+	height: 80px;
+	width: 1000px;
+	background: #56FFCD;
+	border: 2px solid black;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	left: -10px;
+	color: #28765F;
+}
+#Copyright_Text{
+	color: #FF0000;
+}
+#Copyrightor:hover{
+	color: #0000FF;
+}
+#About{
+	height: 1300px;
+	width: 920px;
+	background: #7EFF76;
+	border-radius: 25px;
+	border: 2px solid black;
+	text-align: center;
+	box-sizing: border-box;
+	position: fixed;
+	top: 25px;
+	left: 30px;
+	display: none;
+}
+#Close_About{
+	height: 100px;
+	width: 100px;
+	font-size: 125px;
+	color: #ff0000;
+	position: fixed;
+	top: 15px;
+	right: 45px;
+}
+#Close_About:hover{
+	color: #820000;
+}
+#About_Header{
+	height: 100px;
+	width: 920px;
+	text-align: center;
+	font-size: 75px;
+	color: #009980;
+	position: fixed;
+	top: 50px;
+	left: 30px;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+}
+#About_Photo{
+	height: 700px;
+	width: 525px;
+	background: url("Photo.png");
+	background-size: 525px 700px;
+	border: 3px solid #0000FF;
+	border-radius: 25px;
+	position: fixed;
+	top: 200px;
+	left: 230px;
+}
+#About_Name{
+	height: 90px;
+	width: 532px;
+	position: fixed;
+	top: 850px;
+	left: 229px;
+	background: #00FFF1;
+	color: #0000FF;
+	border: 3px solid #0000ff;
+	border-radius: 25px;
+	box-sizing: border-box;
+	font-size: 55px;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+#About_Bio{
+	height: 180px;
+	width: 692px;
+	position: fixed;
+	top: 1025px;
+	left: 150px;
+	font-size: 40px;
+	border: 2px solid #0000ff;
+	color: #0000ff;
+	padding-top: 15px;
+	border-radius: 25px;
+	box-sizing: border-box;
+	display: block;
+}
+#Copyright{
+	display: block;
+}
+#Home{
+	height: 2000px;
+	width: 960px;
+	background: #F8FF98;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	box-sizing: border-box;
+}
+#Home_Header{
+	height: 100px;
+	width: 985px;
+	background: #FFFC92;
+	border: 3px solid black;
+	box-sizing: border-box;
+	position: fixed;
+	top: -2px;
+	left: -3px;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 10px;
+	color: #929043;
+}
+body{
+	background: #000000;
+}
+#Basic_Calculator{
+	height: 300px;
+	width: 800px;
+	background: #BDF587;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: absolute;
+	top: 200px;
+	left: 80px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#Basic_Calculator #Logo{
+	height: 250px;
+	width: 250px;
+	background: url("LogoA.png");
+	background-size: 250px 250px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	box-sizing: border-box;
+}
+#Basic_Calculator #Title{
+	height: 100px;
+	width: 500px;
+	position: absolute;
+	top: 50px;
+	left: 280px;
+	box-sizing: border-box;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 60px;
+	font-family: arial;
+}
+#Basic_Calculator #Open{
+	height: 90px;
+	width: 300px;
+	background: #4AFF48;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 60px;
+	text-align: center;
+	position: absolute;
+	top: 160px;
+	left: 360px;
+	box-sizing: border-box;
+	color: #257E24;
+	padding-top: 5px;
+}
+#Basic_Calculator #Open:hover{
+	background: #258024;
+	color: #5FFF5E;
+}
+#Basic_Calculator_M{
+	height: 1300px;
+	width: 920px;
+	background: #7EFF76;
+	border-radius: 25px;
+	border: 2px solid black;
+	text-align: center;
+	box-sizing: border-box;
+	position: fixed;
+	top: 25px;
+	left: 30px;
+	display: none;
+}
+#Basic_Calculator_M #Close{
+	height: 100px;
+	width: 100px;
+	font-size: 125px;
+	color: #ff0000;
+	position: fixed;
+	top: 15px;
+	right: 45px;
+}
+#Basic_Calculator_M #Close:hover{
+	color: #820000;
+}
+#Basic_Calculator_M #Basic_InputA{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008026;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 250px;
+	left: 200px;
+	overflow: hidden;
+}
+#Basic_Calculator_M #Basic_InputB{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008026;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 375px;
+	left: 200px;
+	overflow: hidden;
+}
+#Basic_Calculator_M #A{
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008026;
+	font-size: 85px;
+	text-align: center;
+	position: fixed;
+	top: 525px;
+	left: 200px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+#Basic_Calculator_M #B{
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008026;
+	font-size: 85px;
+	text-align: center;
+	position: fixed;
+	top: 525px;
+	left: 365px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+#Basic_Calculator_M #C{
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008026;
+	font-size: 85px;
+	text-align: center;
+	position: fixed;
+	top: 525px;
+	left: 535px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+#Basic_Calculator_M #D{
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008026;
+	font-size: 85px;
+	text-align: center;
+	position: fixed;
+	top: 525px;
+	left: 700px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+#Basic_Calculator_M #Calculate{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #00ff00;
+	color: #006000;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 700px;
+	left: 200px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+#Basic_Calculator_M #Calculate:hover{
+	background: #008B00;
+	color: #A0FFA0;
+}
+#Basic_Output{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #0000ff;
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 850px;
+	left: 200px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+#Clear_Basic{
+	height: 100px;
+	width: 400px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #ff0000;
+	color: #fff;
+	font-size: 75px;
+	text-align: center;
+	position: fixed;
+	top: 1100px;
+	left: 300px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+#Clear_Basic:hover{
+	background: #8B0000;
+	color: #fff;
+}
+
+
+#Area_Calculator{
+	height: 300px;
+	width: 800px;
+	background: #99F9FF;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: absolute;
+	top: 600px;
+	left: 80px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#Area_Calculator #Logo{
+	height: 250px;
+	width: 250px;
+	background: url("LogoB.png");
+	background-size: 212px 212px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 47px;
+	box-sizing: border-box;
+}
+#Area_Calculator #Title{
+	height: 100px;
+	width: 500px;
+	position: absolute;
+	top: 50px;
+	left: 280px;
+	box-sizing: border-box;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 60px;
+	font-family: arial;
+}
+#Area_Calculator #Open{
+	height: 90px;
+	width: 300px;
+	background: #4AFF48;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 60px;
+	text-align: center;
+	position: absolute;
+	top: 160px;
+	left: 360px;
+	box-sizing: border-box;
+	color: #257E24;
+	padding-top: 5px;
+}
+#Area_Calculator #Open:hover{
+	background: #258024;
+	color: #5FFF5E;
+}
+#Area_Calculator_M{
+	height: 1300px;
+	width: 920px;
+	background: #5BF5FF;
+	border-radius: 25px;
+	border: 2px solid black;
+	text-align: center;
+	box-sizing: border-box;
+	position: fixed;
+	top: 25px;
+	left: 30px;
+	display: none;
+}
+#Area_Calculator_M #Close{
+	height: 100px;
+	width: 100px;
+	font-size: 125px;
+	color: #ff0000;
+	position: fixed;
+	top: 15px;
+	right: 45px;
+}
+#Area_Calculator_M #Close:hover{
+	color: #820000;
+}
+#Area_Clear{
+	height: 100px;
+	width: 400px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #FF0000;
+	color: #fff;
+	font-size: 75px;
+	text-align: center;
+	position: fixed;
+	top: 1150px;
+	left: 300px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+#Area_Clear:hover{
+	background: #8B0000;
+	color: #fff;
+}
+#Area_Calculator_M #Calculate{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #00FFD4;
+	color: #00958A;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 1000px;
+	left: 200px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+#Area_Calculator_M #Calculate:hover{
+	background: #007A59;
+	color: #8CFFEC;
+}
+#Area_Calculator_M #AreaC_InputA{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008A73;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 200px;
+	left: 200px;
+	overflow: hidden;
+}
+#Area_Calculator_M #AreaC_InputB{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008A73;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 300px;
+	left: 200px;
+	overflow: hidden;
+}
+#Area_Calculator_M #AreaC_InputC{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008A73;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 400px;
+	left: 200px;
+	overflow: hidden;
+}
+#Area_Calculator_M #AreaC_InputD{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: transparent;
+	color: #008A73;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 500px;
+	left: 200px;
+	overflow: hidden;
+}
+#AreaC_OutputA{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #0000ff;
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 700px;
+	left: 200px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+#AreaC_OutputB{
+	height: 80px;
+	width: 600px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 25px;
+	background: #0000ff;
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	position: fixed;
+	top: 800px;
+	left: 200px;
+	overflow: hidden;
+	padding-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

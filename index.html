@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Area Calculator</title>
+			<link rel="stylesheet" type="text/css" href="Style.css">
+		</head>
+		<body>
+			<div id="Main">
+				<div id="Home">
+					<h1 id="Home_Header">Calculators list</h1>					
+					<div id="Basic_Calculator">
+						<div id="Logo"></div>
+						<div id="Title">Basic Calculator</div>
+						<div id="Open" onclick="Basic_Calculator_Open()">Open</div>
+					</div>
+					<div id="Area_Calculator">
+						<div id="Logo"></div>
+						<div id="Title">Area Calculator</div>
+						<div id="Open" onclick="Area_Calculator_Open()">Open</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+				</div>
+				<div id="Calculator">
+					<div id="Basic_Calculator_M">
+						<div id="Close" onclick="Basic_Calculator_Close()">×</div>
+						<input id="Basic_InputA" type="number"></input>
+						<div id="A" onclick="Calculate_Basic_Op(1)">+</div>
+						<div id="B" onclick="Calculate_Basic_Op(2)">-</div>
+						<div id="C" onclick="Calculate_Basic_Op(3)">×</div>
+						<div id="D" onclick="Calculate_Basic_Op(4)">÷</div>
+						<input id="Basic_InputB" type="number"></input>
+						<div id="Calculate" onclick="Calculate_Basic()">Calculate</div>
+						<div id="Basic_Output">OUTPUT</div>
+						<div id="Clear_Basic" onclick="Clear_Basic()">Clear</div>
+					</div>
+					<div id="Area_Calculator_M">
+						<div id="Close" onclick="Area_Calculator_Close()">×</div>
+						<input id="AreaC_InputA" type="number" placeholder="Enter in feet"></input>
+						<input id="AreaC_InputB" type="number" placeholder="Enter in feet"></input>
+						<input id="AreaC_InputC" type="number" placeholder="Enter in feet"></input>
+						<input id="AreaC_InputD" type="number" placeholder="Enter in feet"></input>
+						<div id="Calculate" onclick="Area_Calculate()">Calculate</div>
+						<div id="AreaC_OutputA">Output in feet</div>
+						<div id="AreaC_OutputB">Output in Biga</div>
+						<div id="Area_Clear" onclick="Area_Clear()">Clear</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+				</div>
+				<div id="Copyright">
+					<span id="Copyright_Text">Copyright ©</span> : <span id="Copyrightor" onclick="About(1)">Bishnaram Godara</span>
+				</div>
+				<div id="About">
+					<div id="About_Header">About the Creator</div>
+					<div id="About_Photo"></div>
+					<div id="About_Name">Bishnaram Godara</div>
+					<div id="About_Bio">I'm a web/app developer and web/app/game programmer from Rajasthan, INDIA.</div>
+					<div id="Close_About" onclick="About(2)">×</div>
+				</div>
+			</div>
+			<script src="Script.js"> </script>
+		</body>
+	</html>
+
+
+
+
+
+
+
+
+
