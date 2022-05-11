@@ -575,8 +575,31 @@ body{
 	overflow: hidden;
 	padding-top: 3px;
 }
-
-
+#Download{
+	height: 70px;
+	width: 400px;
+	background: transparent;
+	font-size: 45px;
+	position: fixed;
+	bottom: 90px;
+	right: 30px;
+	display: block;
+	text-decoration: none;
+	color: #002A70;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: arial;
+}
+#Download_Main{
+	height: 70px;
+	width: 400px;
+	background: #0060FF;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: fixed;
+	bottom: 95px;
+	right: 30px;
+}
 
 
 
